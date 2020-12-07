@@ -1,0 +1,24 @@
+{
+  "name": "static-boilerplate",
+  "version": "0.0.1",
+  "main": "index.pug",
+  "license": "MIT",
+  "private": true,
+  "browserslist": "> 0.2%",
+  "scripts": {
+    "dev": "parcel src/index.pug -p 2000",
+    "dev:open": "parcel src/index.pug -p 2000 --open",
+    "build": "rm -rf ./dist && parcel build src/index.pug --no-source-maps"
+  },
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-alpha.3",
+    "@parcel/packager-css": "^2.0.0-alpha.3",
+    "@parcel/transformer-css": "^2.0.0-alpha.3",
+    "@parcel/transformer-html": "^2.0.0-alpha.3",
+    "@parcel/transformer-posthtml": "^2.0.0-alpha.3",
+    "@parcel/transformer-pug": "^2.0.0-alpha.3",
+    "parcel": "^2.0.0-nightly.469",
+    "pug": "^3.0.0",
+    "stylus": "^0.54.8"
+  }
+}
