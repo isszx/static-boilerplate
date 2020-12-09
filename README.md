@@ -17,7 +17,7 @@ yarn dev
 npm run dev
 ```
 
-| check (localhost:2000)[localhost:2000]
+| check [localhost:2000](http://localhost:2000)
 
 For dev with auto open browser:
 
